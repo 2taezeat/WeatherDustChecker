@@ -29,7 +29,7 @@ class WeatherPageFragment : Fragment(){
     @JsonIgnoreProperties(ignoreUnknown=true)
     data class OpenWeatherAPIJSONResponse(val main: Map<String, String>, val weather: List<Map<String, String>>)
 
-    private val APP_ID = "674e97ef9378e2226e5ae4a04789bec7"
+    private val APP_ID = ""
 
     // 뷰 객체 참조용을 클래스의 속성 추가
     lateinit var weatherImage : ImageView

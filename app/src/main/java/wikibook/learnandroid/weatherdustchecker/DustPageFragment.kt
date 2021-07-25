@@ -28,7 +28,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class DustPageFragment : Fragment() {
 
-    private val APP_TOKEN = "f11e18b0138f48ec7bf747340ac16753791368b9"
+    private val APP_TOKEN = ""
 
     lateinit var statusImage : ImageView
     lateinit var pm25StatusText : TextView
